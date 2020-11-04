@@ -1,0 +1,16 @@
+n1 = int(input("informe um número: "))
+n2 = int(input("Informe o segundo   número: "))
+n3 = int(input("Informe o terceiro  número: "))
+n4 = int(input("Informe o quarto    número: "))
+n5 = int(input("Informe o quinto    número: "))
+n6 = int(input("Informe o sexto     número: "))
+n7 = int(input("Informe o setimo    número: "))
+n8 = int(input("Informe o oitavo    número: "))
+n9 = int(input("Informe o nono      número: "))
+n10 = int(input("Informe o decimo   número: "))
+lista = [n1,n2,n3,n4,n5,n6,n7,n8,n9,n10]
+
+number=filter(lambda x: '%2==0' in x, [lista])  
+print(list(number))
+number2=filter(lambda x: '%!=0' in x, [lista])
+print(list(number2))
