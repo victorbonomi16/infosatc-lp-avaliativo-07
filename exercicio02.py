@@ -1,4 +1,5 @@
-n1 = float(input("Informe um número: "))
-n2 = float(input("Informe outro número: "))
-f=lambda a,b: a*b
-print(f(n1,n2))
+numero1=int(input("Informe um número: "))
+numero2=int(input("Informe outro número: "))
+
+numeros=(lambda x: numero1*numero2)
+print(numeros(0))
